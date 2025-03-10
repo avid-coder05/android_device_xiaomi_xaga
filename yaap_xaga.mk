@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/xaga/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2460
@@ -27,7 +27,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := xaga
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 22041216C
-PRODUCT_NAME := lineage_xaga
+PRODUCT_NAME := yaap_xaga
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="xaga-user 14 SP1A.210812.016 V816.0.8.0.ULOCNXM release-keys" \
